@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "325245e63044a9784694d2de36702eb9",
+    "revision": "9a9ed5b10443af7963bbafabebb69ac9",
     "url": "/desafiofrontend-deploy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafiofrontend-deploy/static/css/2.6a906a3b.chunk.css"
   },
   {
-    "revision": "da0b23fd94e9b4362b5e",
-    "url": "/desafiofrontend-deploy/static/css/main.505b8cad.chunk.css"
+    "revision": "5a91095eed69e4852419",
+    "url": "/desafiofrontend-deploy/static/css/main.dda2ea92.chunk.css"
   },
   {
     "revision": "9c9e57bdb7ab5b19eb21",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/desafiofrontend-deploy/static/js/2.b9267c02.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da0b23fd94e9b4362b5e",
-    "url": "/desafiofrontend-deploy/static/js/main.83dc0f22.chunk.js"
+    "revision": "5a91095eed69e4852419",
+    "url": "/desafiofrontend-deploy/static/js/main.1f2ef995.chunk.js"
   },
   {
     "revision": "f6aa80dbf79913dcce5d",
