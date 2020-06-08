@@ -18,6 +18,9 @@ input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):
   padding: 0 1.75rem;
 
 }
+.container {
+  width: 100%;
+}
 
 body{
   background-color: #F8F8F8;

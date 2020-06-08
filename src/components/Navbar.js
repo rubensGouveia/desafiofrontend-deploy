@@ -37,7 +37,7 @@ function Navbar() {
               </Avatar>
 
               <Typography
-                style={{ fontSize: 12, fontWeight: 700, paddingLeft: 20 }}
+                style={{ fontSize: 12, fontWeight: 700, paddingLeft: 10 }}
               >
                 Olá, Fulano
                 <Link
