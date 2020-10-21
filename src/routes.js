@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import Dashboard from './pages/Dashboard';
+import Pesquisa from './pages/Pesquisa';
 import Login from './pages/Login';
 
 export default function Routes() {
@@ -9,7 +10,8 @@ export default function Routes() {
     <HashRouter>
       <Switch>
         <Route path="/" exact component={Login} />
-        <Route path="/Dashboard" component={Dashboard} />
+        <Route path="/dashboard" component={Dashboard} />
+        <Route path="/pesquisa" component={Pesquisa} />
       </Switch>
     </HashRouter>
   );

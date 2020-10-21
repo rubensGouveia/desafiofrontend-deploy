@@ -12,13 +12,14 @@ import {
 import { KeyboardArrowDown, PersonOutlineRounded } from '@material-ui/icons';
 import styles from '../styles/styles';
 
-function Navbar() {
+function Navbar(props) {
   const preventDefault = (event) => event.preventDefault();
+  const { label } = props;
 
   return (
     <Box component="nav" style={{ height: 230, zIndex: 1 }}>
       <AppBar
-        style={{ background: '#008466', height: 230, zIndex: 1 }}
+        style={{ background: '#fdc000', height: 230, zIndex: 1 }}
         position="initial"
       >
         <Box className="container row" style={{ padding: 24 }}>
@@ -39,13 +40,13 @@ function Navbar() {
               <Typography
                 style={{ fontSize: 12, fontWeight: 700, paddingLeft: 10 }}
               >
-                Olá, Fulano
+                Olá, Maria
                 <Link
                   href="#p"
                   onClick={preventDefault}
                   style={{ color: '#fff', display: 'block', fontSize: 16 }}
                 >
-                  Minha Conta
+                  Atendente
                 </Link>
               </Typography>
               <IconButton>
@@ -53,7 +54,7 @@ function Navbar() {
               </IconButton>
             </Box>
           </Box>
-          <Typography style={styles.bigTittle}>Olá, Fulano</Typography>
+          <Typography style={styles.bigTittle}>{label}</Typography>
         </Box>
       </AppBar>
     </Box>

@@ -31,6 +31,11 @@ const styles = {
     color: '#000000DE',
     fontWeight: 400,
   },
+  pzinho: {
+    fontSize: 10,
+    color: '#333333DE',
+    fontWeight: 400,
+  },
   b16: {
     fontSize: 16,
     color: '#000000DE',

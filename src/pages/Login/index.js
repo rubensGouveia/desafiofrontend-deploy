@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
@@ -36,10 +36,19 @@ const useStyles = makeStyles((theme) => ({
 export default function SignIn() {
   const classes = useStyles();
 
+  const [user, setUser] = useState('');
+  const [senha, setSenha] = useState('');
+  const [visivel, setVisivel] = useState(false);
+
   const history = useHistory();
 
-  function handleCLick() {
-    history.push('/dashboard');
+  function handleCLick(e) {
+    e.preventDefault();
+    if (user === 'maria' && senha === 'senha') {
+      history.push('/pesquisa');
+    } else {
+      setVisivel(true);
+    }
   }
 
   return (
@@ -59,10 +68,11 @@ export default function SignIn() {
             margin="normal"
             required
             fullWidth
-            id="email"
-            label="E-mail"
-            name="email"
-            autoComplete="email"
+            onChange={(e) => setUser(e.target.value)}
+            value={user}
+            id="usuario"
+            label="Usuário"
+            name="usuario"
             autoFocus
           />
           <TextField
@@ -70,11 +80,12 @@ export default function SignIn() {
             margin="normal"
             required
             fullWidth
+            onChange={(e) => setSenha(e.target.value)}
+            value={senha}
             name="password"
             label="Senha"
             type="password"
             id="password"
-            autoComplete="current-password"
           />
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
@@ -90,6 +101,16 @@ export default function SignIn() {
           >
             Entrar
           </Button>
+          {visivel && (
+            <Grid container>
+              <Grid item xs>
+                <Typography> Usuário ou senha incorretos </Typography>
+                <Typography> Usuário: maria </Typography>
+                <Typography> Senha: senha </Typography>
+              </Grid>
+            </Grid>
+          )}
+
           <Grid container>
             <Grid item xs>
               <Link href="#plus" variant="body2">
