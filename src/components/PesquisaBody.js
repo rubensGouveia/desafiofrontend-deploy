@@ -7,7 +7,7 @@ import TablePesquisa from './TablePesquisa';
 import styles from '../styles/styles';
 
 function PesquisaBody() {
-  const [valor, setValor] = useState();
+  const [valor, setValor] = useState('');
 
   function setarValor(value) {
     setValor(value);
@@ -21,7 +21,7 @@ function PesquisaBody() {
               <Grid item xs={12}>
                 <InputCustomizado onClick={setarValor} />
               </Grid>
-              {valor && (
+              {valor !== '' && (
                 <Grid item xs={12}>
                   <TablePesquisa valor={valor} />
                 </Grid>

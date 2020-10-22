@@ -43,7 +43,7 @@ export default function InputCustomizado(props) {
         type="submit"
         className={classes.iconButton}
         aria-label="search"
-        onClick={() => onClick(value)}
+        onClick={(e) => onClick(value)}
       >
         <SearchIcon />
       </IconButton>
