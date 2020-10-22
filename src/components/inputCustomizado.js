@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
@@ -27,8 +27,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function InputCustomizado(props) {
   const classes = useStyles();
-  const [value, setValue] = useState('');
-  const { onClick } = props;
+
+  const { onClick, value, setValue } = props;
 
   return (
     <Paper component="form" className={classes.root}>
@@ -43,7 +43,7 @@ export default function InputCustomizado(props) {
         type="submit"
         className={classes.iconButton}
         aria-label="search"
-        onClick={(e) => onClick(value)}
+        onClick={(e) => onClick(e, value)}
       >
         <SearchIcon />
       </IconButton>

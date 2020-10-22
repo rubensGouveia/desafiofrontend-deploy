@@ -8,8 +8,14 @@ import styles from '../styles/styles';
 
 function PesquisaBody() {
   const [valor, setValor] = useState('');
+  const [value, setValue] = useState('');
 
-  function setarValor(value) {
+  function atualizarValue(value) {
+    setValue(value);
+  }
+
+  function setarValor(e, value) {
+    e.preventDefault();
     setValor(value);
   }
   return (
@@ -19,7 +25,11 @@ function PesquisaBody() {
           <Paper style={styles.paper} elevation={3}>
             <Grid container spacing={5}>
               <Grid item xs={12}>
-                <InputCustomizado onClick={setarValor} />
+                <InputCustomizado
+                  onClick={setarValor}
+                  value={value}
+                  setValue={atualizarValue}
+                />
               </Grid>
               {valor !== '' && (
                 <Grid item xs={12}>
