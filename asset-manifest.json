@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/desafiofrontend-deploy/static/css/main.8880313b.chunk.css",
-    "main.js": "/desafiofrontend-deploy/static/js/main.1f2ef995.chunk.js",
-    "main.js.map": "/desafiofrontend-deploy/static/js/main.1f2ef995.chunk.js.map",
+    "main.css": "/desafiofrontend-deploy/static/css/main.dda2ea92.chunk.css",
+    "main.js": "/desafiofrontend-deploy/static/js/main.d5f46818.chunk.js",
+    "main.js.map": "/desafiofrontend-deploy/static/js/main.d5f46818.chunk.js.map",
     "runtime-main.js": "/desafiofrontend-deploy/static/js/runtime-main.22eb677b.js",
     "runtime-main.js.map": "/desafiofrontend-deploy/static/js/runtime-main.22eb677b.js.map",
     "static/css/2.6a906a3b.chunk.css": "/desafiofrontend-deploy/static/css/2.6a906a3b.chunk.css",
-    "static/js/2.b9267c02.chunk.js": "/desafiofrontend-deploy/static/js/2.b9267c02.chunk.js",
-    "static/js/2.b9267c02.chunk.js.map": "/desafiofrontend-deploy/static/js/2.b9267c02.chunk.js.map",
+    "static/js/2.8a84b3a7.chunk.js": "/desafiofrontend-deploy/static/js/2.8a84b3a7.chunk.js",
+    "static/js/2.8a84b3a7.chunk.js.map": "/desafiofrontend-deploy/static/js/2.8a84b3a7.chunk.js.map",
     "index.html": "/desafiofrontend-deploy/index.html",
-    "precache-manifest.0f2d81602ae98d3f3cee5ab234d45846.js": "/desafiofrontend-deploy/precache-manifest.0f2d81602ae98d3f3cee5ab234d45846.js",
+    "precache-manifest.456169da257cad81d48fcb55d9991c10.js": "/desafiofrontend-deploy/precache-manifest.456169da257cad81d48fcb55d9991c10.js",
     "service-worker.js": "/desafiofrontend-deploy/service-worker.js",
     "static/css/2.6a906a3b.chunk.css.map": "/desafiofrontend-deploy/static/css/2.6a906a3b.chunk.css.map",
-    "static/css/main.8880313b.chunk.css.map": "/desafiofrontend-deploy/static/css/main.8880313b.chunk.css.map",
-    "static/js/2.b9267c02.chunk.js.LICENSE.txt": "/desafiofrontend-deploy/static/js/2.b9267c02.chunk.js.LICENSE.txt"
+    "static/css/main.dda2ea92.chunk.css.map": "/desafiofrontend-deploy/static/css/main.dda2ea92.chunk.css.map",
+    "static/js/2.8a84b3a7.chunk.js.LICENSE.txt": "/desafiofrontend-deploy/static/js/2.8a84b3a7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.22eb677b.js",
     "static/css/2.6a906a3b.chunk.css",
-    "static/js/2.b9267c02.chunk.js",
-    "static/css/main.8880313b.chunk.css",
-    "static/js/main.1f2ef995.chunk.js"
+    "static/js/2.8a84b3a7.chunk.js",
+    "static/css/main.dda2ea92.chunk.css",
+    "static/js/main.d5f46818.chunk.js"
   ]
 }
