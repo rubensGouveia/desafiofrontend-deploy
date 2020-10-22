@@ -19,8 +19,12 @@ function Navbar(props) {
   return (
     <Box component="nav" style={{ height: 230, zIndex: 1 }}>
       <AppBar
-        style={{ background: '#fdc000', height: 230, zIndex: 1 }}
-        position="initial"
+        style={{
+          background: '#fdc000',
+          height: 230,
+          zIndex: 0,
+          position: 'initial',
+        }}
       >
         <Box className="container row" style={{ padding: 24 }}>
           <Box component="div" style={styles.rowBetween}>

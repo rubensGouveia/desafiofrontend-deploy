@@ -38,12 +38,7 @@ function CreditoDisponivel() {
       </Grid>
       <div className={classes.apertar}>
         <Grid container justify="space-around">
-          <Grid
-            item
-            direction="column"
-            justify="space-between"
-            className={classes.box}
-          >
+          <Grid item className={classes.box}>
             <Typography style={styles.b16}>Credito Parcelado Curto</Typography>
             <Typography style={styles.p}>
               Valor Solicitado: R$ 6.000,00
@@ -53,12 +48,7 @@ function CreditoDisponivel() {
             <Typography style={styles.p}>Valor Parcela: R$500,00</Typography>
             <Typography style={styles.p}>Status: Em dia</Typography>
           </Grid>
-          <Grid
-            item
-            direction="column"
-            justify="space-between"
-            className={classes.box}
-          >
+          <Grid item className={classes.box}>
             <Typography style={styles.b16}>RDCP</Typography>
             <Typography style={styles.p}>
               Valor Aplicado: R$ 2.300,00
